@@ -3178,7 +3178,7 @@ function renderAdminSocials(container) {
   const links = getSocialLinks();
   const displayLinks = (links && links.length > 0) ? links : [
     { id: 'soc_1', title: 'Facebrowser', name: 'Facebrowser', target_url: 'https://face-tr.gta.world/page/parrhesia', icon_url: '/icons/facebrowser.ico', display_order: 1 },
-    { id: 'soc_2', title: 'Youtube', name: 'Youtube', target_url: 'https://www.youtube.com/@parrhesiatheband', icon_url: '/icons/youtube.png', display_order: 2 },
+    { id: 'soc_2', title: 'Youtube', name: 'Youtube', target_url: 'https://www.youtube.com/@thetoxicband', icon_url: '/icons/youtube.png', display_order: 2 },
     { id: 'soc_3', title: 'Soundloop', name: 'Soundloop', target_url: 'https://soundloop.app', icon_url: '/icons/soundloop.png', display_order: 3 },
     { id: 'soc_4', title: 'LS Chat', name: 'LS Chat', target_url: 'https://chat-tr.gta.world/app/s/107/5398', icon_url: '/icons/lschat.svg', display_order: 4 },
     { id: 'soc_5', title: 'SanMail', name: 'SanMail', target_url: 'https://mail-tr.gta.world/compose?to=mail%40parrhesia.com', icon_url: '/icons/sanmail.png', display_order: 5 }

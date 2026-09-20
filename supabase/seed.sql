@@ -158,7 +158,7 @@ ON CONFLICT (id) DO NOTHING;
 INSERT INTO social_links (id, name, title, url, target_url, icon_url, display_order, sort_order)
 VALUES
   ('soc_1', 'Facebrowser', 'Facebrowser', 'https://face-tr.gta.world/page/parrhesia', 'https://face-tr.gta.world/page/parrhesia', '/icons/facebrowser.ico', 1, 1),
-  ('soc_2', 'Youtube', 'Youtube', 'https://www.youtube.com/@parrhesiatheband', 'https://www.youtube.com/@parrhesiatheband', '/icons/youtube.png', 2, 2),
+  ('soc_2', 'Youtube', 'Youtube', 'https://www.youtube.com/@thetoxicband', 'https://www.youtube.com/@thetoxicband', '/icons/youtube.png', 2, 2),
   ('soc_3', 'Soundloop', 'Soundloop', 'https://soundloop.app', 'https://soundloop.app', '/icons/soundloop.png', 3, 3),
   ('soc_4', 'LS Chat', 'LS Chat', 'https://chat-tr.gta.world/app/s/107/5398', 'https://chat-tr.gta.world/app/s/107/5398', '/icons/lschat.svg', 4, 4),
   ('soc_5', 'SanMail', 'SanMail', 'https://mail-tr.gta.world/compose?to=mail%40parrhesia.com', 'https://mail-tr.gta.world/compose?to=mail%40parrhesia.com', '/icons/sanmail.png', 5, 5)

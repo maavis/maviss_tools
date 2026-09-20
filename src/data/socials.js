@@ -22,8 +22,8 @@ export const DEFAULT_SOCIAL_LINKS = [
     id: 'soc_2',
     name: 'Youtube',
     title: 'Youtube',
-    url: 'https://www.youtube.com/@parrhesiatheband',
-    target_url: 'https://www.youtube.com/@parrhesiatheband',
+    url: 'https://www.youtube.com/@thetoxicband',
+    target_url: 'https://www.youtube.com/@thetoxicband',
     icon_url: '/icons/youtube.png',
     display_order: 2
   },

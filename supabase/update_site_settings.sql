@@ -43,3 +43,10 @@ WHERE name ILIKE '%SINNERS%' OR description ILIKE '%The Sinners%';
 UPDATE updates
 SET description = REPLACE(description, 'THE SINNERS', 'TOXIC')
 WHERE description ILIKE '%THE SINNERS%';
+
+-- 6. Update YouTube social link to @thetoxicband
+UPDATE social_links
+SET url = 'https://www.youtube.com/@thetoxicband',
+    target_url = 'https://www.youtube.com/@thetoxicband'
+WHERE url ILIKE '%youtube%' OR target_url ILIKE '%youtube%' OR name ILIKE '%youtube%' OR title ILIKE '%youtube%';
+
